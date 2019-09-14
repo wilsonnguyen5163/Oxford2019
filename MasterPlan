@@ -10,9 +10,38 @@ DATA BASE WILL BE REPRESENTED AS "TREES"
 
 						CATEGORIES
 
-		DOOR	WINDOWS	   CARPET	FLOORING        
+		DOOR		WINDOWS	   	CARPET		FLOORING       INTERIOR	       LIGHTINGS 	BATHROOM
+	TYPES
+     BULK PRICE
+
+
 What categories they are interested in finding the price
 	Preferences (Brands, price, materials)
-Put the excel file into program dictionary as storage.
-	Each product will be inputted by the user to get the information of the key
+Database will be in the form of Excel spreadsheet pull from bulk retailer data base. A program will auto generate a dictionary of information, with each item having its company's item ID code 
+	Each product will be inputted by the user to get the information of the item sold by different retailers
+	THe user can then use the comparison result to decide whether they are saving money or not
+
+
+
+OR:
+
+
+The program allows the user to input the company + warehouse ID (item ID) for each product that they are planning to buy + suggested price + price check range. The agolrithm will price check the items among known retailer international's databases and report back whether the price offerred is attractive
+	If it is not attractive then the program will list other offers thats cheaper
+
+
+OR:
+
+The user get to describe the description of their product by filters
+	User can describe the "quality" and each item will have different "quality" based on their intended usage
+		Vigorous usage on door handle (then quality will be the longevity of the bearings inside, durable materials...etc) Durability > Looks
+		Infrequent usage of door path (then quality will be on the fancy material types, brand names, paints,...etc to make it attractive) Looks > Durability
+	User can opt out of brand names
+	User can determine their own "quality" based on their building preferences
+		What they would consider as "good quality"
+
+
+
+
+Dict (key (Categories of items) : Dict (type of item ) : Dict (Bulk price) : price)
 
