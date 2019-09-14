@@ -1,0 +1,18 @@
+Excels with categories, types, name, quality (rating out of 10), price + quantity
+
+
+ASSUME THAT THERE WILL BE A TEAM TO KEEP THE DATA BASE UPDATED
+
+DATA BASE WILL BE REPRESENTED AS "TREES"
+
+
+
+
+						CATEGORIES
+
+		DOOR	WINDOWS	   CARPET	FLOORING        
+What categories they are interested in finding the price
+	Preferences (Brands, price, materials)
+Put the excel file into program dictionary as storage.
+	Each product will be inputted by the user to get the information of the key
+
